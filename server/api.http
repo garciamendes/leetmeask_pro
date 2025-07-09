@@ -1,0 +1,10 @@
+# VARS
+@baseUrl = http://localhost:3335
+
+# Health check
+GET {{baseUrl}}/health
+
+###
+
+# GET ROOMS
+GET {{baseUrl}}/rooms
